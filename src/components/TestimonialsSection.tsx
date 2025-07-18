@@ -6,7 +6,7 @@ const testimonials = [
     name: "Arjun",
     title: "JEE Dropout Slayer",
     avatar: "🧑‍💻",
-    content: "I actually studied 2 hours guilt-free. My bonsai is thriving. So is my GPA. Finally found something that works!",
+    content: "First time I studied 2 hours without guilt. My bonsai is thriving. So is my GPA. This app gets me! 🌱",
     rating: 5,
     location: "Delhi",
     achievement: "21-day streak"
@@ -15,7 +15,7 @@ const testimonials = [
     name: "Priya",
     title: "Focus Ke Papa",
     avatar: "👩‍🎓", 
-    content: "Phone addiction was real. Now I can resist Instagram for 50+ mins straight. The AI task planner is chef's kiss! 💋",
+    content: "Phone addiction was REAL. Now I can resist Instagram for 50+ mins straight. The dopamine hit from my growing bonsai > endless scroll! 🌿✨",
     rating: 5,
     location: "Mumbai",
     achievement: "15 hrs focused this week"
@@ -24,7 +24,7 @@ const testimonials = [
     name: "Rohan",
     title: "Distraction Destroyer",
     avatar: "👨‍🔬",
-    content: "Bro, ye app magic hai. My parents got the weekly AI summary and they're actually proud. No more nagging! 🙌",
+    content: "Bro, ye app magic hai. AI calls my parents weekly - they're actually PROUD now. No more nagging, just wholesome appreciation! 🙌",
     rating: 5,
     location: "Bangalore", 
     achievement: "Level 12 Bonsai Master"

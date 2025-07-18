@@ -42,11 +42,11 @@ const AITaskPlannerDemo = () => {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 animate-slide-up">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            AI Task Planner in Action
+            Turn vague plans into action in 3 seconds
           </h2>
           <p className="text-lg text-muted-foreground mb-4">
-            See how GPT turns your overwhelming study goals into bite-sized, 
-            focused sessions that actually work.
+            No more staring at blank notebooks wondering where to start. 
+            GPT breaks down ANY study goal into doable chunks.
           </p>
           <div className="text-primary font-medium">
             "Bhai, planning bhi AI karega!" 🤖

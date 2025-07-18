@@ -17,22 +17,22 @@ const HeroSection = () => {
           <div className="text-center lg:text-left space-y-8 animate-slide-up">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                Turn Focus Into Your{" "}
+                From IG-addict to{" "}
                 <span className="bg-gradient-bonsai bg-clip-text text-transparent">
-                  Superpower
+                  Focus Beast 🌱
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-                Ditch the phone addiction. Build real habits. Watch your bonsai grow as you do. 
+                Stop feeling guilty about scrolling. Start feeling proud of your progress. 
                 <br />
-                <span className="font-medium text-primary">Tu kar sakta hai bhai 💪</span>
+                <span className="font-medium text-primary">AI + dopamine + Gen-Z feels = productivity that actually works ✨</span>
               </p>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button variant="hero" size="xl" className="group">
-                Start Growing Your Focus 🌱
+                Bonsai Banale Bhai 🌱
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
               <Button variant="calm" size="xl" className="group">

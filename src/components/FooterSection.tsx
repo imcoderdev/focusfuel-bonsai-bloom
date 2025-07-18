@@ -24,8 +24,8 @@ const FooterSection = () => {
               <h3 className="text-xl font-bold">FocusFuel EDU+</h3>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Turn your focus into a superpower. Designed for Gen-Z students who want to beat phone addiction 
-              and build real study habits that stick.
+              From IG-addict to Focus Beast. Designed for Gen-Z students who want real productivity 
+              without the guilt trips.
             </p>
             <div className="flex items-center gap-4">
               <Button variant="outline" size="icon" asChild>

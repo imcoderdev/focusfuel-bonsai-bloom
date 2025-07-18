@@ -6,6 +6,7 @@ const features = [
     icon: Brain,
     title: "AI Task Planner",
     description: "GPT breaks down 'Revise Physics' into 3 smart steps. No more overwhelming todo lists.",
+    subtext: "Your chaotic brain meets organized AI. Finally, a plan that makes sense! 🤖",
     emoji: "🧠",
     gradient: "bg-gradient-bonsai"
   },
@@ -13,6 +14,7 @@ const features = [
     icon: Timer,
     title: "Focus Timer + Bonsai",
     description: "Pomodoro sessions that grow your virtual plant. Watch it bloom as you focus.",
+    subtext: "Every 25 mins of focus = bonsai grows. Simple dopamine that actually helps! 🌿",
     emoji: "🌱",
     gradient: "bg-gradient-dopamine"
   },
@@ -20,6 +22,7 @@ const features = [
     icon: BarChart3,
     title: "Progress Dashboard",
     description: "XP tracking, streak counters, and distraction insights. Know exactly where you stand.",
+    subtext: "Your mom gets a weekly report. You don't get yelled at. Win-win! 📈",
     emoji: "📊",
     gradient: "bg-gradient-calm"
   }
@@ -38,8 +41,8 @@ const FeaturesSection = () => {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground mb-4">
-            We get it. Your phone is addictive. Study feels overwhelming. 
-            That's why we built something different.
+            We get it. Your phone is addictive. Study feels overwhelming. Mom keeps asking about progress. 
+            That's why we built something that actually gets you.
           </p>
           <div className="text-primary font-medium">
             "Focus kar bhai, kal regret karega." 🎯
@@ -64,8 +67,11 @@ const FeaturesSection = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground text-center leading-relaxed">
+                <p className="text-muted-foreground text-center leading-relaxed mb-3">
                   {feature.description}
+                </p>
+                <p className="text-sm text-primary/80 text-center italic">
+                  {feature.subtext}
                 </p>
               </CardContent>
             </Card>

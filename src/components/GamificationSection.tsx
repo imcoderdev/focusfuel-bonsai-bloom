@@ -13,8 +13,8 @@ const GamificationSection = () => {
             Level Up Your Focus Game
           </h2>
           <p className="text-lg text-muted-foreground mb-4">
-            Turn boring study sessions into an addictive growth journey. 
-            Your bonsai grows, you grow. Simple.
+            More focus = more XP = stronger bonsai = OP student vibes. 
+            Turn boring study sessions into an addictive growth journey.
           </p>
           <div className="text-primary font-medium">
             "Dopamine de raha hai bhai!" 🎮
@@ -109,9 +109,9 @@ const GamificationSection = () => {
               </CardHeader>
               <CardContent className="space-y-3">
                 {[
-                  { name: "3-Day Streak", icon: "🔥", rarity: "common" },
-                  { name: "10 Tasks Crushed", icon: "💪", rarity: "rare" },
-                  { name: "Focus Warrior", icon: "⚡", rarity: "epic" }
+                  { name: "Focus Demon", icon: "😈", rarity: "common" },
+                  { name: "Phone Blocker", icon: "📵", rarity: "rare" },
+                  { name: "Late Night Slayer", icon: "🌙", rarity: "epic" }
                 ].map((badge, index) => (
                   <div key={badge.name} className="flex items-center gap-3">
                     <div className="text-lg">{badge.icon}</div>
