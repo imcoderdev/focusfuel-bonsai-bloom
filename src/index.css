@@ -8,35 +8,68 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* FocusFuel Brand Colors - Calming Pastels */
+    --background: 150 30% 98%;
+    --foreground: 160 15% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 150 40% 96%;
+    --card-foreground: 160 15% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 150 40% 96%;
+    --popover-foreground: 160 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Bonsai Green Primary */
+    --primary: 140 45% 35%;
+    --primary-foreground: 150 30% 98%;
+    
+    /* Soft Nature Secondary */
+    --secondary: 150 25% 88%;
+    --secondary-foreground: 160 20% 25%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Calming Muted */
+    --muted: 150 20% 92%;
+    --muted-foreground: 160 12% 45%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Energy Accent - Dopamine Orange */
+    --accent: 25 85% 65%;
+    --accent-foreground: 150 30% 98%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Gentle Warning */
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 150 30% 98%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --border: 150 20% 85%;
+    --input: 150 20% 90%;
+    --ring: 140 45% 35%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Focus Success Green */
+    --success: 140 60% 50%;
+    --success-foreground: 150 30% 98%;
+    
+    /* XP Gold */
+    --xp: 45 90% 60%;
+    --xp-foreground: 160 15% 15%;
+    
+    /* Streak Fire */
+    --streak: 15 85% 55%;
+    --streak-foreground: 150 30% 98%;
 
-    --radius: 0.5rem;
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(150 40% 96%), hsl(140 30% 92%));
+    --gradient-bonsai: linear-gradient(180deg, hsl(140 45% 35%), hsl(120 40% 45%));
+    --gradient-dopamine: linear-gradient(135deg, hsl(25 85% 65%), hsl(35 80% 70%));
+    --gradient-calm: linear-gradient(180deg, hsl(150 25% 88%), hsl(160 20% 85%));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px hsl(140 30% 60% / 0.1);
+    --shadow-focus: 0 8px 32px hsl(140 45% 35% / 0.15);
+    --shadow-dopamine: 0 6px 24px hsl(25 85% 65% / 0.2);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
